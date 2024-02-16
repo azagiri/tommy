@@ -32,6 +32,14 @@ jobs:
         run: echo $HOSTNAME
       - name: test run2
         run: printenv
+      - name: test run3
+        run: lscpu
+      - name: test run4 
+        run: lspci
+      - name: test run5 
+        run: free -m
+      - name: test run6 
+        run: uname -r
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
