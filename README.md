@@ -1,2 +1,3 @@
-# tommy
-TOMMY updated
+Github actions:
+
+Event --triggers--> Workflow --runs--> actions
